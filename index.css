@@ -9,6 +9,25 @@ nav#menu ul{
     list-style: none;
 }
 
+header nav#menu-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffc710;
+}
+header nav#menu-top ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+header nav#menu-top li {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+
 .navbar{
     position: fixed;
     bottom: 0;
@@ -51,3 +70,22 @@ nav#menu a:hover{
 nav#menu li:hover{
     background: rgb(241, 185, 0);
 }
+nav#menu-top a:link{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+nav#menu-top a:visited{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+nav#menu-top a:hover{
+    color:rgb(0, 0, 0);
+ }
+ 
+ nav#menu-top li:hover{
+     background: rgb(241, 185, 0);
+ }
