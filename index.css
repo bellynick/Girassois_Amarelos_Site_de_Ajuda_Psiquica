@@ -91,6 +91,15 @@ nav#menu-top a:hover{
      background: rgb(241, 185, 0);
  }
 
+ .profile-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; /* deixa o ícone circular */
+    margin-right: 15px;
+    cursor: pointer;
+    border: 2px solid rgba(254, 254, 254, 0.605); /* opcional, dá destaque */
+  }
+
 /*feed simulado*/
 #container-list {
     display: flex;
