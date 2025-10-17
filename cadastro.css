@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(250, 211, 102);
+}
+
+#formulario{
+    background-color: rgb(253, 186, 43);
+    padding: 20px;
+    border-radius: 20px;
+}
