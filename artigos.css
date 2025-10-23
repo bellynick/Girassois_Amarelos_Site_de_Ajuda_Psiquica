@@ -30,8 +30,7 @@ nav#menu li{
 
 body{
     background-color: rgb(255, 250, 183);
-    padding-top: 80px;
-    padding-bottom: 60px;
+    text-align: center;
 }
 
 nav#menu a:link{
@@ -54,54 +53,6 @@ nav#menu li:hover{
     background: rgb(241, 185, 0);
 }
 
-/*barra de navegação superior*/
-header nav#menu-top {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #ffc710;
-}
-header nav#menu-top ul {
-    display: flex;
-    list-style: none;
-    justify-content: space-between;
-}
-header nav#menu-top li {
-    flex: 1;
-    text-align: center;
-    padding: 20px;
-}
-
-nav#menu-top a:link{
-    text-decoration: none;
-    color:rgb(255, 255, 255);
-    font-weight: bold;
-}
-
-nav#menu-top a:visited{
-    text-decoration: none;
-    color:rgb(255, 255, 255);
-    font-weight: bold;
-}
-
-nav#menu-top a:hover{
-    color:rgb(0, 0, 0);
-}
- 
-nav#menu-top li:hover{
-     background: rgb(241, 185, 0);
-}
-
-.profile-icon {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%; /* deixa o ícone circular */
-    margin-right: 15px;
-    cursor: pointer;
-    border: 2px solid rgba(254, 254, 254, 0.605);
-}
-
 #container-list{
     display: flex;
     flex-direction: column; /* lista vertical */
@@ -111,4 +62,30 @@ nav#menu-top li:hover{
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.box{
+    background-color: #6adafc;
+    padding: 30px;
+    border: none;
+    border-radius: 20px;
+    text-align: left;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.box:hover{
+    transform: scale(1.05);
+    background-color: #00c3ff;
+}
+
+.caixinha-cinza {
+    background-color: #5a657a;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: black;
+    font-weight: bold;
+    user-select: none;
 }
