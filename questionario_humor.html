@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Questionário de Bem-Estar</title>
+    <link rel="stylesheet" href="questionario.css">
+</head>
+<body>
+    <h1>Questionário de Bem-Estar</h1>
+
+    <form id="form-questionario">
+        <h3>1. Você tem dormido bem ultimamente?</h3>
+        <input type="radio" name="sono" value="sim" required> Sim
+        <input type="radio" name="sono" value="nao"> Não
+
+        <h3>2. Você tem se sentido estressado(a)?</h3>
+        <input type="radio" name="estresse" value="sim" required> Sim
+        <input type="radio" name="estresse" value="nao"> Não
+
+        <h3>3. Você está tendo pensamentos de risco?</h3>
+        <input type="radio" name="conversar" value="sim" required> Sim
+        <input type="radio" name="conversar" value="nao"> Não
+
+        <h3>4. Você já contou isso para alguém?</h3>
+        <input type="radio" name="conversar" value="sim" required> Sim
+        <input type="radio" name="conversar" value="nao"> Não
+
+        <h3>5. Já pensou em fazer isso?</h3>
+        <input type="radio" name="conversar" value="sim" required> Sim
+        <input type="radio" name="conversar" value="nao"> Não
+            
+        <h3>6. Você gostaria de conversar com alguém sobre seus sentimentos?</h3>
+        <input type="radio" name="conversar" value="sim" required> Sim
+        <input type="radio" name="conversar" value="nao"> Não
+
+        <br><br>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <!-- Mensagem da CVV (inicialmente escondida) -->
+    <div id="cvv-info">
+        <h2>Você não está sozinho(a)</h2>
+        <p>Se você estiver passando por um momento difícil, procure ajuda emocional.</p>
+        <p><strong>CVV – Centro de Valorização da Vida</strong></p>
+        <p>Ligue 188 (ligação gratuita e sigilosa)</p>
+        <p>Ou acesse: <a href="https://www.cvv.org.br" target="_blank">www.cvv.org.br</a></p>
+    </div>
+
+    <script>
+        const form = document.getElementById("form-questionario");
+        const cvvInfo = document.getElementById("cvv-info");
+
+        form.addEventListener("submit", function(event) {
+            event.preventDefault(); // Evita recarregar a página
+            cvvInfo.style.display = "block"; // Mostra a mensagem da CVV
+        });
+    </script>
+</body>
+</html>

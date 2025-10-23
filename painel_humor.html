@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title>Girassóis Amarelos</title>
+    <link rel="stylesheet" href="painel_humor.css">
+</head>
+<body>
+    <h1>Girassóis Amarelos:</h1>
+    <h2>Painel do Bem-Estar</h2>
+
+    <p class="mensagem-fixa">“É preciso que eu suporte duas ou três larvas se quiser conhecer as borboletas.”</p>
+    <p class="mensagem-fixa">- O Pequeno Príncipe</p>
+
+    <form id="humor-form">
+        <label for="humor">Como você está se sentindo hoje?</label><br>
+        <input type="text" id="humor" placeholder="Ex: Feliz, Ansioso, Triste, Deprimido, Pensat">
+        <button type="submit">Registrar Humor</button>
+    </form>
+
+    <p id="humor-registrado"></p>
+
+    <button id="mensagem-btn">Receber mensagem motivacional</button>
+    <p id="mensagem-motivacional"></p>
+
+    <!-- Botão de ajuda, visível apenas em humores negativos -->
+    <button id="ajuda-btn" style="display: none; margin-top: 15px;">Precisa de ajuda?</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
