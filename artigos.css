@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+nav#menu ul{
+    text-transform: uppercase;
+    list-style: none;
+}
+
+.navbar{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffc710;
+    text-align: center;
+}
+
+nav#menu{
+    display: block;
+}
+
+nav#menu li{
+    display: inline-block;
+    background: rgb(250, 202, 89);
+    padding: 10px;
+}
+
+body{
+    background-color: rgb(255, 250, 183);
+    text-align: center;
+}
+
+nav#menu a:link{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+nav#menu a:visited{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+nav#menu a:hover{
+   color:rgb(0, 0, 0);
+}
+
+nav#menu li:hover{
+    background: rgb(241, 185, 0);
+}
+
+#container-list{
+    display: flex;
+    flex-direction: column; /* lista vertical */
+    gap: 10px;
+    margin-bottom: 60px;
+    padding: 20px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box{
+    background-color: #6adafc;
+    padding: 30px;
+    border: none;
+    border-radius: 20px;
+    text-align: left;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.box:hover{
+    transform: scale(1.05);
+    background-color: #00c3ff;
+}
+
+.caixinha-cinza {
+    background-color: #5a657a;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: black;
+    font-weight: bold;
+    user-select: none;
+}
