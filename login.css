@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(250, 211, 102);
+}
+
+#formulario{
+    background-color: rgb(253, 186, 43);
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 550px;
+    display: flex;
+    align-items: center;
+    height: 80vh;
+    gap: 10px;
+}
+
+#formulario, #logo, #slogan {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo{
+    background-color: rgb(253, 186, 43);
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 450px;
+    display: flex;
+    align-items: center;
+    height: 30vh;
+    
+}
+
+.logo {
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#slogan{
+    background-color: rgb(253, 186, 43);
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 450px;
+    display: flex;
+    align-items: center;
+    height: 40vh;
+    text-align: center;
+    font-size: 45px;
+}
