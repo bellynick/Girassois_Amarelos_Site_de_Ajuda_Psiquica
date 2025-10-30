@@ -21,7 +21,7 @@ body::before {
 }
   
 .profile-container {
-    background: rgb(255, 250, 183);
+    background: rgb(255, 255, 255);
     width: 800px; /* mais largo para desktop */
     border-radius: 10px;
     overflow: hidden;
