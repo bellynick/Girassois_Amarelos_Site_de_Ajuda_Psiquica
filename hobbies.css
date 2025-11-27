@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+nav#menu ul{
+    text-transform: uppercase;
+    list-style: none;
+}
+
+.navbar{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffc710;
+    text-align: center;
+}
+
+nav#menu{
+    display: block;
+}
+
+nav#menu li{
+    display: inline-block;
+    background: rgb(250, 202, 89);
+    padding: 10px;
+}
+
+nav#menu a:link{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+nav#menu a:visited{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+nav#menu a:hover{
+   color:rgb(0, 0, 0);
+}
+
+nav#menu li:hover{
+    background: rgb(241, 185, 0);
+}
+
+/*barra de navegação superior*/
+header{
+    height: 90px;
+}
+
+header nav#menu-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffc710;
+}
+header nav#menu-top ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+header nav#menu-top li {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+nav#menu-top a:link{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+nav#menu-top a:visited{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+nav#menu-top a:hover{
+    color:rgb(0, 0, 0);
+}
+ 
+nav#menu-top li:hover{
+     background: rgb(241, 185, 0);
+}
+
+.profile-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; /* deixa o ícone circular */
+    margin-right: 15px;
+    cursor: pointer;
+    border: 2px solid rgba(254, 254, 254, 0.605); /* opcional, dá destaque */
+}
+
+/* Layout geral */
+.conteudo {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 30px;
+}
+
+/* Seções */
+.hobbies-section, .assistidos-section {
+    width: 50%;
+}
+
+.hobbies-section h2, .assistidos-section h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #8a6b47;
+    width: max-content;
+}
+
+/* Cards de hobbies */
+.hobby-card {
+    display: flex;
+    justify-content: space-between;
+    background-color: #b2946d;
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 15px;
+    color: #2f2415;
+}
+
+.hobby-card .info h3 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.prof {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 70px;
+    background-color: #6b583d;
+    border-radius: 8px;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}
+
+/* Área dos vídeos assistidos */
+.assistidos-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.video-card {
+    background-color: #d1c0a3;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.video-card h4 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.thumb {
+    background-color: white;
+    height: 120px;
+    border-radius: 5px;
+    margin: 10px 0;
+}

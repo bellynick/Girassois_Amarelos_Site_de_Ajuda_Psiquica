@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+nav#menu ul{
+    text-transform: uppercase;
+    list-style: none;
+}
+
+.navbar{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffc710;
+    text-align: center;
+}
+
+nav#menu{
+    display: block;
+}
+
+nav#menu li{
+    display: inline-block;
+    background: rgb(250, 202, 89);
+    padding: 10px;
+}
+
+nav#menu a:link{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+nav#menu a:visited{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+nav#menu a:hover{
+   color:rgb(0, 0, 0);
+}
+
+nav#menu li:hover{
+    background: rgb(241, 185, 0);
+}
+
+/*barra de navegação superior*/
+header{
+    height: 90px;
+}
+
+header nav#menu-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffc710;
+}
+header nav#menu-top ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+header nav#menu-top li {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+nav#menu-top a:link{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+nav#menu-top a:visited{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+nav#menu-top a:hover{
+    color:rgb(0, 0, 0);
+}
+ 
+nav#menu-top li:hover{
+     background: rgb(241, 185, 0);
+}
+
+.profile-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; /* deixa o ícone circular */
+    margin-right: 15px;
+    cursor: pointer;
+    border: 2px solid rgba(254, 254, 254, 0.605); /* opcional, dá destaque */
+}
+
+.titulo-ajuda {
+    font-size: 24px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Linha abaixo do título */
+.linha-ajuda {
+    width: 90%;
+    margin-left: 15px;
+    border: 1px solid #8a6b47;
+}
+
+/* Grid dos vídeos */
+.grid-ajuda {
+    margin-top: 20px;
+    padding: 0 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+}
+
+/* Card individual */
+.card-ajuda {
+    background-color: #b2946d;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    height: 120px;
+    justify-content: space-between;
+    color: #2f2415;
+}
+
+/* Textos dentro do card */
+.card-ajuda .info h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+.card-ajuda p {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+/* Miniatura */
+.card-ajuda .thumb {
+    width: 45%;
+    background-color: #6b583d;
+    border-radius: 6px;
+}
+
+/* Seta de navegação direita */
+.seta-direita {
+    position: absolute;
+    right: 20px;
+    top: 55%;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
