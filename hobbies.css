@@ -141,6 +141,16 @@ nav#menu-top li:hover{
     font-size: 20px;
 }
 
+.hobby-card a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+
+.hobby-card a:visited{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+
 .prof {
     display: flex;
     align-items: flex-end;
