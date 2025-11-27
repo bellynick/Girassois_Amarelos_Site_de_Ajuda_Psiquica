@@ -111,7 +111,10 @@ nav#menu-top li:hover{
     font-weight: bold;
 }
 
-/* Linha abaixo do título */
+main{
+    background-color: rgb(255, 250, 183);
+}
+
 .linha-ajuda {
     width: 90%;
     margin-left: 15px;

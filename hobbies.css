@@ -106,6 +106,7 @@ nav#menu-top li:hover{
 
 /* Layout geral */
 .conteudo {
+    background-color: rgb(255, 250, 183);
     display: flex;
     justify-content: space-between;
     padding: 20px;
