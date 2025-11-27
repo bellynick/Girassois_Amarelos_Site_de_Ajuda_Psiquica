@@ -28,6 +28,10 @@ nav#menu li{
     padding: 10px;
 }
 
+body{
+    background-color: rgb(255, 250, 183);
+}
+
 nav#menu a:link{
     text-decoration: none;
     color:rgb(255, 255, 255);
