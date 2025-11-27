@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 250, 183);
+}
+
+.container {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.topo {
+    text-align: center;
+    margin-top: 10px;
+    position: relative;
+}
+
+.voltar {
+    position: absolute;
+    left: 15px;
+    top: 5px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.titulo {
+    font-size: 48px;
+    margin: 0;
+}
+
+.caixa {
+    width: 100%;
+    max-width: 650px; 
+    margin: 15px auto;
+    padding: 15px 20px;
+    border-radius: 12px;
+    background: #7ec6e6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nome-artigo {
+    font-size: 22px;
+}
+
+.extensao {
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+}
+
+.audio {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* BARRA DE ÁUDIO CENTRALIZADA */
+.linha {
+    width: 100%;
+    max-width: 650px;
+    height: 5px;
+    background: #444;
+    border-radius: 5px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.bolinha {
+    width: 16px;
+    height: 16px;
+    background: #000;
+    border-radius: 50%;
+    position: absolute;
+    top: -6px;
+    left: 40%;
+}
+
+.play {
+    font-size: 28px;
+    padding-left: 10px;
+}
+
+.autor {
+    margin-left: 0;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.texto {
+    width: 100%;
+    max-width: 650px;
+    margin: 20px auto;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 1.4;
+}

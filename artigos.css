@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: "Poppins", sans-serif !important;
 }
 
 nav#menu ul{
@@ -39,6 +41,11 @@ nav#menu a:link{
     font-weight: bold;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 nav#menu a:visited{
     text-decoration: none;
     color:rgb(255, 255, 255);
@@ -65,7 +72,7 @@ nav#menu li:hover{
 }
 
 .box{
-    background-color: #6adafc;
+    background-color: #8CE4FF;
     padding: 30px;
     border: none;
     border-radius: 20px;
@@ -78,14 +85,15 @@ nav#menu li:hover{
   
 .box:hover{
     transform: scale(1.05);
-    background-color: #00c3ff;
+    background-color: #6acdfe;
+    border: 2px solid #001f2e;
 }
 
 .caixinha-cinza {
-    background-color: #5a657a;
+    background-color: #3f54cb;
     padding: 5px 10px;
     border-radius: 3px;
-    color: black;
+    color: #c7cfff;
     font-weight: bold;
     user-select: none;
 }
